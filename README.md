@@ -123,6 +123,11 @@ python -m src.predict sample.png
 
 複数画像を指定して連続で予測することも可能．
 
+
+**注意：** 学習済みモデル（`.keras`ファイル）はGitHubに含まれていません．
+画像の天気予測を実行する前に，`python train.py` でモデルを学習・保存してください．
+
+
 ```bash
 python -m src.predict sample.png data/sunny/shine1.jpg
 ```
